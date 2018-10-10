@@ -95,55 +95,28 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.CustomerPriority__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLAExpirationDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLASerialNumber__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.SLA__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.UpsellOpportunity__c</field>
+        <field>Account.SalesDemoField__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Demo_Custom_Object_2__c.Custom_Field_2__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Demo_Custom_Object__c.Demo_Custom_Field__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
@@ -387,143 +360,143 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowViewKnowledge</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>AllowViewKnowledge</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ApexRestServices</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ApexRestServices</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ApiEnabled</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ApiEnabled</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>AssignTopics</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInternalUser</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ChatterInternalUser</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInviteExternalUsers</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ChatterInviteExternalUsers</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ChatterOwnGroups</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ConvertLeads</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeFilters</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>CreateCustomizeFilters</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>CreateCustomizeReports</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>CreateTopics</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>DistributeFromPersWksp</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>DistributeFromPersWksp</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EditEvent</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EditEvent</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EditOppLineItemUnitPrice</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EditTask</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EditTask</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EditTopics</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EmailMass</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailSingle</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EmailSingle</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>EnableNotifications</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ExportReport</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ExportReport</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ImportPersonal</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ImportPersonal</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>LightningConsoleAllowedForUser</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>LightningConsoleAllowedForUser</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ListEmailSend</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageEncryptionKeys</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ManageEncryptionKeys</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>RunReports</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>RunReports</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>SelectFilesFromSalesforce</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>SendSitRequests</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ShowCompanyNameAsUserBadge</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>SubmitMacrosAllowed</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>SubmitMacrosAllowed</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeToLightningReports</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>SubscribeToLightningReports</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>UseWebLink</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewEventLogFiles</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ViewEventLogFiles</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHelpLink</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ViewHelpLink</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewRoles</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ViewRoles</name>
+</userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewSetup</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>ViewSetup</name>
+</userPermissions>
 </Profile>

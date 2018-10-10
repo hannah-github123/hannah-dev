@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"><sharingOwnerRules>
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
         <fullName>SalesSupport</fullName>
-        <accessLevel>Read</accessLevel>
-        <description>A sharing rule</description>
+        <accessLevel>Edit</accessLevel>
+        <description>A user sharing rule with write access</description>
         <label>Share sales with support</label>
         <sharedTo>
             <role>CustomerSupportNorthAmerica</role>
@@ -9,4 +10,5 @@
         <sharedFrom>
             <role>ChannelSalesTeam</role>
         </sharedFrom>
-    </sharingOwnerRules></SharingRules>
+    </sharingOwnerRules>
+</SharingRules>

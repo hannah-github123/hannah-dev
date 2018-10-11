@@ -110,15 +110,6 @@
         <field>Account.SalesDemoField__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>

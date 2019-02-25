@@ -289,34 +289,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>CustomerPriority__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer Priority</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>High</fullName>
-                    <default>false</default>
-                    <label>High</label>
-                </value>
-                <value>
-                    <fullName>Low</fullName>
-                    <default>false</default>
-                    <label>Low</label>
-                </value>
-                <value>
-                    <fullName>Medium</fullName>
-                    <default>false</default>
-                    <label>Medium</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>SLA__c</fullName>
         <externalId>false</externalId>
         <label>SLA</label>
@@ -340,14 +312,8 @@
                     <label>Silver</label>
                 </value>
                 <value>
-                    <fullName>Platinum</fullName>
-                    <color>#9999FF</color>
-                    <default>false</default>
-                    <label>Platinum</label>
-                </value>
-                <value>
                     <fullName>Bronze</fullName>
-                    <color>#A53711</color>
+                    <color>#CC33CC</color>
                     <default>false</default>
                     <label>Bronze</label>
                 </value>
@@ -370,11 +336,6 @@
                 <controllingFieldValue>Biotechnology</controllingFieldValue>
                 <controllingFieldValue>Chemicals</controllingFieldValue>
                 <valueName>Silver</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Banking</controllingFieldValue>
-                <controllingFieldValue>Chemicals</controllingFieldValue>
-                <valueName>Platinum</valueName>
             </valueSettings>
         </valueSet>
     </fields>

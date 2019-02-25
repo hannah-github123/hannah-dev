@@ -141,7 +141,6 @@
         <field>Account.CleanStatus</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>

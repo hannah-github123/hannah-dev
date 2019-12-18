@@ -312,8 +312,14 @@
                     <label>Silver</label>
                 </value>
                 <value>
+                    <fullName>Platinum</fullName>
+                    <color>#9999FF</color>
+                    <default>false</default>
+                    <label>Platinum</label>
+                </value>
+                <value>
                     <fullName>Bronze</fullName>
-                    <color>#CC33CC</color>
+                    <color>#A53711</color>
                     <default>false</default>
                     <label>Bronze</label>
                 </value>
@@ -336,6 +342,11 @@
                 <controllingFieldValue>Biotechnology</controllingFieldValue>
                 <controllingFieldValue>Chemicals</controllingFieldValue>
                 <valueName>Silver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Banking</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Platinum</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -366,6 +377,27 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>DiscountPercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>DiscountRate__c / 100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DiscountPercentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DiscountRate__c</fullName>
+        <externalId>false</externalId>
+        <label>DiscountRate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>

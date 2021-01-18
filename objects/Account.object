@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <type>Default</type>
@@ -119,6 +118,27 @@
     <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>DiscountPercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>DiscountRate__c / 100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DiscountPercentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DiscountRate__c</fullName>
+        <externalId>false</externalId>
+        <label>DiscountRate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>DunsNumber</fullName>
@@ -316,8 +336,14 @@
                     <label>Silver</label>
                 </value>
                 <value>
+                    <fullName>Platinum</fullName>
+                    <color>#9999FF</color>
+                    <default>false</default>
+                    <label>Platinum</label>
+                </value>
+                <value>
                     <fullName>Bronze</fullName>
-                    <color>#CC33CC</color>
+                    <color>#A53711</color>
                     <default>false</default>
                     <label>Bronze</label>
                 </value>
@@ -340,6 +366,11 @@
                 <controllingFieldValue>Biotechnology</controllingFieldValue>
                 <controllingFieldValue>Chemicals</controllingFieldValue>
                 <valueName>Silver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Banking</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Platinum</valueName>
             </valueSettings>
         </valueSet>
     </fields>

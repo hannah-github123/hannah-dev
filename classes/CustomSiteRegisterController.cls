@@ -28,11 +28,6 @@ public with sharing class CustomSiteRegisterController {
             ApexPages.addMessage(msg);
             return null;
         }
-        if (!EmailUtils.isValidEmail(email)) {
-            ApexPages.Message msg = new ApexPages.Message(ApexPages.Severity.ERROR, Label.site.invalid_email);
-            ApexPages.addMessage(msg);
-            return null;
-        }
         Trial t = new Trial(0);
         User u = new User();
         u.Username = username;

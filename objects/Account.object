@@ -295,12 +295,11 @@
         <fullName>SLA__c</fullName>
         <externalId>false</externalId>
         <label>SLA</label>
-        <required>true</required>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <controllingField>Industry</controllingField>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -317,16 +316,9 @@
                 </value>
                 <value>
                     <fullName>Bronze</fullName>
-                    <color>#8F6429</color>
+                    <color>#CC33CC</color>
                     <default>false</default>
                     <label>Bronze</label>
-                </value>
-                <value>
-                    <fullName>Platinum</fullName>
-                    <color>#9999FF</color>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Platinum</label>
                 </value>
             </valueSetDefinition>
             <valueSettings>

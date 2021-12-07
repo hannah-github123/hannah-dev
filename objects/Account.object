@@ -344,6 +344,13 @@
                     <label>Bronze</label>
                 </value>
                 <value>
+                    <fullName>Pink</fullName>
+                    <color>#FF99FF</color>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pink</label>
+                </value>
+                <value>
                     <fullName>Platinum</fullName>
                     <color>#9999FF</color>
                     <default>false</default>

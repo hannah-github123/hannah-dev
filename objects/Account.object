@@ -296,12 +296,11 @@
         <fullName>SLA__c</fullName>
         <externalId>false</externalId>
         <label>SLA</label>
-        <required>true</required>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <controllingField>Industry</controllingField>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -317,24 +316,16 @@
                     <label>Silver</label>
                 </value>
                 <value>
-                    <fullName>Bronze</fullName>
-                    <color>#8F6429</color>
-                    <default>false</default>
-                    <label>Bronze</label>
-                </value>
-                <value>
-                    <fullName>Pink</fullName>
-                    <color>#FF99FF</color>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Pink</label>
-                </value>
-                <value>
                     <fullName>Platinum</fullName>
                     <color>#9999FF</color>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Platinum</label>
+                </value>
+                <value>
+                    <fullName>Bronze</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                    <label>Bronze</label>
                 </value>
             </valueSetDefinition>
             <valueSettings>
@@ -355,6 +346,11 @@
                 <controllingFieldValue>Biotechnology</controllingFieldValue>
                 <controllingFieldValue>Chemicals</controllingFieldValue>
                 <valueName>Silver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Banking</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Platinum</valueName>
             </valueSettings>
         </valueSet>
     </fields>
